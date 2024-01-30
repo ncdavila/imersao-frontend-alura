@@ -254,25 +254,29 @@
 .card-text {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: #ffffff;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     min-height: 62px;
+    text-decoration: none;
 }
 .card-text a {
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
+    color: #ffffff;
 }
-.artist-name {
+.card-text .artist-name {
+    display: block;
     box-sizing: border-box;
     margin-block: 0px;
     font-size: 16px;
     font-weight: 700;
     padding-block-end: 8px;
 }
-.artist-categorie {
+.card-text .artist-categorie {
+    display: block;
     color: #6a6a6a;
     font-weight: 400;
     font-size: 0.875rem;
